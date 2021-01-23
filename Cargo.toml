@@ -1,0 +1,11 @@
+[package]
+name = "toki-aqm"
+version = "0.1.0"
+authors = ["eshin"]
+edition = "2018"
+
+[dependencies]
+embedded-ccs811 = "0.2.0"
+rppal = { version = "0.11.3", features = ["hal"] }
+embedded-hal = "0.2.4"
+nb = "1.0.0"
